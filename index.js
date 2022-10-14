@@ -41,7 +41,7 @@ app.post("/", (request, respond) => {
 
         keyAction.keyTap("X");
 
-    } else if (request.body.amount_raw > 35000 && request.body.amount_raw <= 45000) {
+    } else if (request.body.amount_raw > 35000 && request.body.amount_raw <= 50000) {
 
         while ((Date.now() - timer) < 10000) {
             keyAction.keyToggle('w', 'down')
