@@ -32,9 +32,9 @@ app.post("/", (request, respond) => {
     } else if (request.body.amount_raw > 15000 && request.body.amount_raw <= 25000) {
 
         while ((Date.now() - timer) < 10000) {
-            keyAction.keyToggle('g', 'down')
+            keyAction.keyToggle('g', 'down');
         }
-        keyAction.keyToggle('g', 'up')
+        keyAction.keyToggle('g', 'up');
 
 
     } else if (request.body.amount_raw > 25000 && request.body.amount_raw <= 35000) {
@@ -44,17 +44,17 @@ app.post("/", (request, respond) => {
     } else if (request.body.amount_raw > 35000 && request.body.amount_raw <= 50000) {
 
         while ((Date.now() - timer) < 10000) {
-            keyAction.keyToggle('w', 'down')
+            keyAction.keyToggle('w', 'down');
         }
-        keyAction.keyToggle('w', 'up')
+        keyAction.keyToggle('w', 'up');
 
     } else if (request.body.amount_raw > 50000 && request.body.amount_raw <= 70000) {
 
-
         while ((Date.now() - timer) < 10000) {
-            keyAction.keyToggle('space', 'down')
+            keyAction.keyToggle('space', 'down');
+            keyAction.keyToggle('space', 'up');
         }
-        keyAction.keyToggle('space', 'up')
+       
 
     } else if (request.body.amount_raw >= 90000) {
 
