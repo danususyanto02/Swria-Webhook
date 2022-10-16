@@ -32,10 +32,8 @@ app.post("/", (request, respond) => {
     } else if (request.body.amount_raw > 15000 && request.body.amount_raw <= 25000) {
 
         while ((Date.now() - timer) < 10000) {
-            keyAction.keyToggle('g', 'down');
+            keyAction.keyTap("g");
         }
-        keyAction.keyToggle('g', 'up');
-
 
     } else if (request.body.amount_raw > 25000 && request.body.amount_raw <= 35000) {
 
@@ -51,8 +49,7 @@ app.post("/", (request, respond) => {
     } else if (request.body.amount_raw > 50000 && request.body.amount_raw <= 70000) {
 
         while ((Date.now() - timer) < 10000) {
-            keyAction.keyToggle('space', 'down');
-            keyAction.keyToggle('space', 'up');
+            keyAction.keyTap("g");
         }
        
 
