@@ -49,7 +49,7 @@ app.post("/", (request, respond) => {
     } else if (request.body.amount_raw > 50000 && request.body.amount_raw <= 70000) {
 
         while ((Date.now() - timer) < 10000) {
-            keyAction.keyTap("g");
+            keyAction.keyTap("space");
         }
        
 
