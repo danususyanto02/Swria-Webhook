@@ -57,7 +57,7 @@ app.post("/", (request, respond) => {
 
         keyAction.keyTap("f4", ["alt"]);
         keyAction.moveMouse(594, 560);
-        keyAction.mouseClick(button = "left");
+        keyAction.mouseClick();
 
     }
 
