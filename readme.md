@@ -27,7 +27,7 @@ ID: Yang diperlukan sebelum menggunakan kode program.
     ID: Mengganti Senjata Selama 10 Detik
 
 - Donation | Donasi Rp. 15.001  - Rp.25.000
-    EN: Dropped Weapon And Spike For 10 Second
+    EN: Drop Weapon And Spike For 10 Second
     ID: Menjatuhkan Senjata Dan Spike Selama 10 Detik
 
 - Donation | Donasi Rp. 25.001  - Rp.35.000
